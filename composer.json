@@ -1,0 +1,22 @@
+{
+    "name": "tickles/ticklesphp",
+    "description": "a constantly stir php framework",
+    "type": "framework",
+    "keywords": ["framework", "php"],
+    "homepage": "https://github.com/sung1011/ticklesphp",
+    "authors": [
+        {
+            "name": "tickles",
+            "email": "sung1011@gmail.com"
+        }
+    ],
+   "autoload" : {
+        "psr-4" : {
+            "Ticklesphp\\": "src/"
+        },
+        "files": ["src/Common/Funcs.php"]
+   },
+   "require": {
+       "php": ">=7.0"
+   }
+}
